@@ -115,6 +115,7 @@ main {
   justify-content: space-between;
   align-items: center;
   width: 100%;
+  padding: 10px 20px;
 }
 
 button {
@@ -123,6 +124,13 @@ button {
   border: 2px solid #0282f9;
   padding: 10px 15px;
   font-weight: bolder;
+  cursor: pointer;
+}
+
+.social {
+  display: flex;
+  align-items: center;
+  gap: 10px;
 }
 
 .social span {
