@@ -1,0 +1,39 @@
+/* Common */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Navbar */
+header {
+  background-color: #fff;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 30px;
+}
+nav ul {
+  display: flex;
+}
+
+nav ul li {
+  margin: 10px;
+}
+
+nav ul li a {
+  color: #000;
+  font-weight: bolder;
+}
