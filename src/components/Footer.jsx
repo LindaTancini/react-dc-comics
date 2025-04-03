@@ -9,6 +9,8 @@ import imgYoutube from "../assets/img/footer-youtube.png";
 import imgPinterest from "../assets/img/footer-pinterest.png";
 // PERISCOPE
 import imgPeriscope from "../assets/img/footer-periscope.png";
+// LOGO DC
+import imgBigLogo from "../assets/img/dc-logo-bg.png";
 
 // CREO FUNZIONE DEL COMPONENTE FOOTER, DOVE CONTERRA' LA SUA STRUTTURA HTML
 function Footer() {
@@ -108,28 +110,17 @@ function Footer() {
             </li>
           </ul>
         </div>
+        <img className="footer-img" src={imgBigLogo} alt="Logo DC" />
       </div>
       <div className="smallfooter-container">
-        <div className="button-container">
-          <button>SIGN-UP NOW!</button>
-          <ul className="social">
-            <li>FOLLOW US</li>
-            <li>
-              <img src={imgFacebook} alt="Facebook" />
-            </li>
-            <li>
-              <img src={imgTwitter} alt="Twitter" />
-            </li>
-            <li>
-              <img src={imgYoutube} alt="Youtube" />
-            </li>
-            <li>
-              <img src={imgPinterest} alt="Pinterest" />
-            </li>
-            <li>
-              <img src={imgPeriscope} alt="Periscope" />
-            </li>
-          </ul>
+        <button>SIGN-UP NOW!</button>
+        <div className="social">
+          <span>FOLLOW US</span>
+          <img src={imgFacebook} alt="Facebook" />
+          <img src={imgTwitter} alt="Twitter" />
+          <img src={imgYoutube} alt="Youtube" />
+          <img src={imgPinterest} alt="Pinterest" />
+          <img src={imgPeriscope} alt="Periscope" />
         </div>
       </div>
     </footer>
