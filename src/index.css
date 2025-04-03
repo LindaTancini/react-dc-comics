@@ -53,3 +53,24 @@ main {
   font-size: 25px;
   width: 100%;
 }
+/* Blue Bar */
+.container-bluebar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #0282f9;
+  padding: 50px;
+  color: #fff;
+  width: 100%;
+}
+
+.container-bluebar .icon-container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.icon-container img {
+  display: block;
+  width: 50px;
+}
