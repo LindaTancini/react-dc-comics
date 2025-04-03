@@ -1,6 +1,10 @@
 // CREO FUNZIONE DEL COMPONENTE DIV, DOVE CONTERRA' LA SUA STRUTTURA HTML
 function Jumbotron() {
-  return <div>Jumbotron</div>;
+  return (
+    <div>
+      <p> --Content goes here-- </p>
+    </div>
+  );
 }
 
 // ESPORTO FUNZIONE JUMBOTRON
