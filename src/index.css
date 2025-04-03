@@ -37,7 +37,9 @@ nav ul li a {
   color: #000;
   font-weight: bolder;
 }
-
+body {
+  background-color: #303030;
+}
 /* Main */
 main {
   display: flex;
