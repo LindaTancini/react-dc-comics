@@ -44,9 +44,16 @@ function App() {
     <>
       <Header />
       <Main />
-      <Footer />
+      <Footer
+        linksDcComics={footerDcComics}
+        linksShop={footerShop}
+        linksDc={footerDc}
+        linksSites={footerSites}
+      />
     </>
   );
 }
 
 export default App;
+
+//A RIGA 47, IL FOOTER RICEVERE I LINK
