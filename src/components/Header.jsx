@@ -4,7 +4,7 @@ import Navbar from "./Navbar";
 // CREO FUNZIONE DEL COMPONENTE HEADER, DOVE CONTERRA' LA SUA STRUTTURA HTML
 function Header() {
   // CREO L'ARRAY DEI LINK DELLA NAVBAR
-  const Navlinks = [
+  const navLinks = [
     "CHARACTERS",
     "COMICS",
     "MOVIES",
@@ -16,13 +16,15 @@ function Header() {
     "NEWS",
     "SHOP",
   ];
-  console.log(Navlinks);
+  console.log(navLinks);
   return (
     <header>
-      <Navbar />
+      <Navbar links={navLinks} />
     </header>
   );
 }
 
 // ESPORTO FUNZIONE HEADER
 export default Header;
+
+// A RIGA 22 LA NAVBAR RICEVE L'ARRAY DI LINKS
