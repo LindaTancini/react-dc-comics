@@ -13,7 +13,9 @@ import imgPeriscope from "../assets/img/footer-periscope.png";
 import imgBigLogo from "../assets/img/dc-logo-bg.png";
 
 // CREO FUNZIONE DEL COMPONENTE FOOTER, DOVE CONTERRA' LA SUA STRUTTURA HTML
-function Footer() {
+// IMPOSTO IL PARAMETRO LINKSDCOMICS ECC.,SARANNO LE PROPS
+// AD OGNUNO PASSO IL PARAMETRO CON IL SEGUENTE INDICE
+function Footer({ linksDcComics, linksShop, linksDc, linksSites }) {
   return (
     <footer>
       <div className="footer-container">
@@ -21,34 +23,34 @@ function Footer() {
           <h4>DC COMICS</h4>
           <ul>
             <li>
-              <a href="#">Characters</a>
+              <a href="#"> {linksDcComics[0]} </a>
             </li>
             <li>
-              <a href="#">Comics</a>
+              <a href="#">{linksDcComics[1]}</a>
             </li>
             <li>
-              <a href="#">Movies</a>
+              <a href="#">{linksDcComics[2]}</a>
             </li>
             <li>
-              <a href="#">TV</a>
+              <a href="#">{linksDcComics[3]}</a>
             </li>
             <li>
-              <a href="#">Games</a>
+              <a href="#">{linksDcComics[4]}</a>
             </li>
             <li>
-              <a href="#">Videos</a>
+              <a href="#">{linksDcComics[5]}</a>
             </li>
             <li>
-              <a href="#">News</a>
+              <a href="#">{linksDcComics[6]}</a>
             </li>
           </ul>
           <h4>SHOP</h4>
           <ul>
             <li>
-              <a href="#">Shop DC</a>
+              <a href="#">{linksShop[0]}</a>
             </li>
             <li>
-              <a href="#">Shop DC Collectibles</a>
+              <a href="#">{linksShop[1]}</a>
             </li>
           </ul>
         </div>
@@ -56,37 +58,37 @@ function Footer() {
           <h4>DC</h4>
           <ul>
             <li>
-              <a href="#">Terms Of Use</a>
+              <a href="#">{linksDc[0]}</a>
             </li>
             <li>
-              <a href="#">Privacy Policy</a>
+              <a href="#">{linksDc[1]}</a>
             </li>
             <li>
-              <a href="#">Ad Choices</a>
+              <a href="#">{linksDc[2]}</a>
             </li>
             <li>
-              <a href="#">Advertising</a>
+              <a href="#">{linksDc[3]}</a>
             </li>
             <li>
-              <a href="#">Jobs</a>
+              <a href="#">{linksDc[4]}</a>
             </li>
             <li>
-              <a href="#">Subscriptions</a>
+              <a href="#">{linksDc[5]}</a>
             </li>
             <li>
-              <a href="#">Talent Workshops</a>
+              <a href="#">{linksDc[6]}</a>
             </li>
             <li>
-              <a href="#">CPSC Certificates</a>
+              <a href="#">{linksDc[7]}</a>
             </li>
             <li>
-              <a href="#">Ratings</a>
+              <a href="#">{linksDc[8]}</a>
             </li>
             <li>
-              <a href="#">Shop Help</a>
+              <a href="#">{linksDc[9]}</a>
             </li>
             <li>
-              <a href="#">Contact Us</a>
+              <a href="#">{linksDc[10]}</a>
             </li>
           </ul>
         </div>
@@ -94,19 +96,19 @@ function Footer() {
           <h4>SITES</h4>
           <ul>
             <li>
-              <a href="#">DC</a>
+              <a href="#">{linksSites[0]}</a>
             </li>
             <li>
-              <a href="#">MAD Magazine</a>
+              <a href="#">{linksSites[1]}</a>
             </li>
             <li>
-              <a href="#">DC Kids</a>
+              <a href="#">{linksSites[2]}</a>
             </li>
             <li>
-              <a href="#">DC Universe</a>
+              <a href="#">{linksSites[3]}</a>
             </li>
             <li>
-              <a href="#">DC Power Visa</a>
+              <a href="#">{linksSites[4]}</a>
             </li>
           </ul>
         </div>
