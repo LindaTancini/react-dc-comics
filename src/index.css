@@ -100,6 +100,17 @@ main {
   transform: translateX(-20%);
 }
 
+.load-btn {
+  background-color: #0282f9;
+  color: #fff;
+  border: none;
+  margin: 30px auto;
+  padding: 10px 20px;
+  font-weight: bolder;
+  display: block;
+  cursor: pointer;
+}
+
 /* Blue Bar */
 .container-bluebar {
   display: flex;
