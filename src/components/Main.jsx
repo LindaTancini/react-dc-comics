@@ -4,11 +4,11 @@ import Jumbotron from "./Jumbotron";
 import ProductList from "../products/productList";
 
 // CREO FUNZIONE DEL COMPONENTE MAIN, DOVE CONTERRA' LA SUA STRUTTURA HTML
-function Main() {
+function Main({ comics }) {
   return (
     <main>
       <Jumbotron />
-      <ProductList />
+      <ProductList comics={comics} />
       <Bluebar />
     </main>
   );
