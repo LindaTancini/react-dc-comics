@@ -8,6 +8,7 @@ function Main({ comics }) {
   return (
     <main>
       <Jumbotron />
+      {/*PASSO LE PROPS A PRODUCT LIST*/}
       <ProductList comics={comics} />
       <Bluebar />
     </main>
