@@ -53,6 +53,36 @@ main {
   height: 400px;
   width: 100%;
 }
+
+/* Card */
+.comics-column {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  padding: 20px;
+}
+
+.card-container {
+  width: calc(100% / 6 - 10px);
+  text-align: center;
+}
+
+.img-card img {
+  height: 180px;
+  width: 180px;
+  object-fit: cover;
+  object-position: top;
+}
+
+.text-card {
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+  font-size: 15px;
+  text-transform: uppercase;
+}
+
 /* Blue Bar */
 .container-bluebar {
   display: flex;
