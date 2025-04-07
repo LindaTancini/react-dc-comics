@@ -1,12 +1,13 @@
 //CREO FUNZIONE CHE CONTIENE LA STRUTTURA DELLA CARD
-function productCard() {
+function productCard({ comic }) {
   return (
     <div className="card-container">
       <div className="img-card">
-        <img src="#" alt="testo" />
+        {/*PASSO LE PROP PER CREARE LE CARD*/}
+        <img src={comic.thumb} alt={comic.series} />
       </div>
       <div className="text-card">
-        <p>Testo Card</p>
+        <p>{comic.series}</p>
       </div>
     </div>
   );

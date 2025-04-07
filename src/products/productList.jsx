@@ -9,7 +9,10 @@ function productList() {
     <div className="comics-container">
       <h2 className="comics-title">CURRENT SERIES</h2>
       <div className="comics-column">
-        <ProductCard />
+        {/*CON MAP ITINERO TUTTI GLI ELEMENTI DELL'ARRAY COMICS E CREO LE CARD*/}
+        {comics.map((comic) => (
+          <ProductCard key={comics.id} comic={comic} /> //CON COMIC PASSO LE PROP
+        ))}
       </div>
       <button className="load-btn">LOAD MORE</button>
     </div>
